@@ -1,0 +1,39 @@
+﻿<Window x:Class="Task2_progamming_LL_000012880_Iyekowa_M.Terms"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2_progamming_LL_000012880_Iyekowa_M"
+        mc:Ignorable="d"
+        Title="Terms" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="50" Margin="0,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#FF1E635F"/>
+
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="194" Width="197" BorderBrush="{x:Null}" Margin="-35,-35,0,0">
+            <Button.Background>
+                <ImageBrush ImageSource="/safari zoo.png"/>
+            </Button.Background>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="130,101,0,0" Stroke="Black" VerticalAlignment="Top" Width="695"/>
+
+        <Button Name="Account" Content="Account" HorizontalAlignment="Left" Height="31" Margin="145,65,0,0" VerticalAlignment="Top" Width="59" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Account_Click"/>
+        <Button Name="Map" Content="Map" HorizontalAlignment="Left" Height="31" Margin="219,65,0,0" VerticalAlignment="Top" Width="50" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Map_Click"/>
+        <Button Name="Book" Content="Booking" HorizontalAlignment="Left" Height="31" Margin="281,65,0,0" VerticalAlignment="Top" Width="56" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Book_Click"/>
+        <Button Name="Vist" Content="Visiting" HorizontalAlignment="Left" Height="31" Margin="355,65,0,0" VerticalAlignment="Top" Width="56" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Vist_Click"/>
+        <Button Name="History" Content="About us" HorizontalAlignment="Left" Height="31" Margin="431,65,0,0" VerticalAlignment="Top" Width="59" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="History_Click"/>
+        <Button Name="Articles" Content="Infomation" HorizontalAlignment="Left" Height="31" Margin="504,65,0,0" VerticalAlignment="Top" Width="80" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Articles_Click"/>
+        <Button Name="Login" Content="Login" HorizontalAlignment="Left" Height="31" Margin="600,65,0,0" VerticalAlignment="Top" Width="61" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Login_Click"/>
+        <Button Name="Reg" Content="Register" HorizontalAlignment="Left" Height="31" Margin="666,65,0,0" VerticalAlignment="Top" Width="69" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Reg_Click"/>
+        <Button Name="Home" Content="Home" HorizontalAlignment="Left" Height="31" Margin="202,394,0,0" VerticalAlignment="Top" Width="60" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FF0C21D0" FontWeight="Bold" Click="Home_Click"/>
+        <Button Name="Deal" Content="Deals" HorizontalAlignment="Left" Height="31" Margin="267,394,0,0" VerticalAlignment="Top" Width="64" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Deal_Click"/>
+        <Button Name="Message" Content="Contact us" HorizontalAlignment="Left" Height="31" Margin="331,394,0,0" VerticalAlignment="Top" Width="69" BorderBrush="{x:Null}" Background="{x:Null}" FontWeight="Bold" Click="Message_Click"/>
+        <Button Name="Policy" Content="Policy" HorizontalAlignment="Left" Height="30" Margin="401,395,0,0" VerticalAlignment="Top" Width="44" BorderBrush="{x:Null}"  Background="{x:Null}" FontWeight="Bold" Click="Policy_Click"/>
+        <Button Name="Ts_and_Cs" Content="Terms and Conditions" HorizontalAlignment="Left" Height="31" Margin="450,395,0,0" VerticalAlignment="Top" Width="134" BorderBrush="{x:Null}"  Background="{x:Null}" FontWeight="Bold" Click="Ts_and_Cs_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="248" Margin="145,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="615"><Run Language="en-gb" Text="T"/><Run Text="erms and Conditions"/><LineBreak/><Run/><LineBreak/><Run Text="Booking Confirmation: All bookings are subject to availability and confirmation. A booking is considered confirmed only upon receipt of payment and confirmation from our team."/><LineBreak/><Run/><LineBreak/><Run Text="Payment: Payment for tickets must be made in full at the time of booking. We accept payment via [list accepted payment methods]."/><LineBreak/><Run/><LineBreak/><Run Text="Cancellation and Refund Policy: Cancellations made [X] days prior to the visit date will be eligible for a full refund. Cancellations made after this period will not be refunded."/><LineBreak/><Run/><LineBreak/><Run Text="Modification of Booking: Changes to the booking date or ticket type may be allowed subject to availability and approval. Additional charges may apply for modifications."/><LineBreak/><Run/><LineBreak/><Run Text="Visitor Responsibility: Visitors are responsible for providing accurate and up-to-date information at the time of booking. Any discrepancies in the provided information may result in refusal of entry."/><LineBreak/><Run/><LineBreak/><Run Text="Conduct: Visitors are expected to adhere to all rules and regulations of the visiting site. Any disruptive or inappropriate behavior may result in removal from the premises without refund."/><LineBreak/><Run/><LineBreak/><Run Text="Health and Safety: Visitors must comply with all health and safety guidelines provided by our team and displayed on-site. Failure to do so may result in refusal of entry."/><LineBreak/><Run/><LineBreak/><Run Text="Liability: We do not accept liability for any loss, damage, or injury sustained during the visit, except where caused by our negligence or wilful misconduct."/><LineBreak/><Run/><LineBreak/><Run Text="Personal Belongings: Visitors are responsible for the security of their personal belongings. We do not accept liability for any loss or damage to personal belongings during the visit."/><LineBreak/><Run/><LineBreak/><Run Text="Force Majeure: We reserve the right to cancel, modify, or suspend bookings in the event of unforeseen circumstances, including but not limited to adverse weather conditions, natural disasters, or other force majeure events."/><LineBreak/><Run/><LineBreak/><Run Text="Legal Jurisdiction: These terms and conditions are governed by the laws of [your country/state/province]. Any disputes arising out of or in connection with these terms and conditions shall be subject to the exclusive jurisdiction of the courts of [your jurisdiction]."/><LineBreak/><Run/><LineBreak/><Run Text="By booking a ticket, visitors agree to abide by these terms and conditions."/></TextBlock>
+        <Button Content="" HorizontalAlignment="Left" Height="35" Margin="739,388,0,0" VerticalAlignment="Top" Width="42"  BorderBrush="{x:Null}" FontWeight="Bold">
+            <Button.Background>
+                <ImageBrush ImageSource="/wheelchair.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
